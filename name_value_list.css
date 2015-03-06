@@ -1,0 +1,146 @@
+html, body {
+    padding:0;
+    margin:0;
+}
+
+body {
+    background-color: #CACACA;
+    font-family: Arial,sans-serif;
+    line-height: 1.4;
+    font-size: 12px;
+    margin:0 auto;
+    width: 600px;
+}
+
+#wrapper {
+    position: relative;
+    top: 50px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+}
+
+#input-error-msg {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+   float: left;
+   margin-right: 20px;
+   list-style: none;
+}
+
+#nv-list-container {
+    display: none;
+}
+
+#nv-list-navigation {
+    margin-top: 20px;
+    margin-bottom: 3px;
+    background-color: #AABBCC;
+    height: 16px;
+    padding-left:5px;
+}
+
+#nv-list-navigation li.menu {
+    font-weight: bold;
+}
+
+#nv-list-navigation ul li:first-child {
+    margin-right: 240px;
+}
+
+#nv-list-navigation ul li:last-child {
+    margin-left: 10px;
+}
+
+table {
+    table-layout: fixed;
+    width:540px;
+}
+
+td {
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+thead th:first-child {
+    width: 20px;
+}
+th.name-col, th.value-col {
+    cursor: pointer;
+}
+.name-col {
+    padding-left:5px;
+    width: 200px;
+}
+.value-col {
+    padding-left:5px;
+    width: 280px;
+}
+.cleardiv {
+    clear:both;
+}
+
+#nv-export-view {
+    display: none;
+}
+#nv-export-header {
+    background-color: #AABBCC;
+    font-size: 13px;
+    padding-left: 5px;
+    width: 520px;
+    border: 1px solid #CACACA;
+    margin-bottom: 2px;
+}
+
+#nv-export-header span:first-child {
+    margin-right: 310px;
+}
+
+#nv-export-header span:last-child {
+    font-weight: bold;
+}
+
+#nv-export-left {
+    padding: 5px;
+    float:left;
+    width:80px;
+    height: 500px;
+    border: 1px solid #CACACA;
+    border-right: none ;
+}
+
+#nv-export-right {
+    padding: 5px;
+    width: 434px;
+    height: 500px;
+    margin-left: 80px;
+    border: 1px solid #CACACA;
+    overflow: none;
+}
+
+#nv-export-right textarea {
+    margin: 0;
+    padding: 0;
+    width: 425px;
+    height: 495px;
+    border: none;
+    resize: none;
+}
+
+.downarrow, .uparrow {
+    display:none;
+}
